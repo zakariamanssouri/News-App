@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_web">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="what if million in lockdown and Covid plans under fire, Chinese ask: what comes next?"
+            android:padding="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/main"
+            android:textStyle="bold"
+            android:id="@+id/header_title" />
+
+        <ImageView
+            android:padding="5dp"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_detail" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:ignore="NestedScrolling">
+            <TextView
+                android:padding="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:id="@+id/content"
+                android:text="somthing"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
